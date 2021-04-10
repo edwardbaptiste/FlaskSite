@@ -1,0 +1,39 @@
+.main{
+    color: black;
+    padding-left: 30%;
+    text-align: left;
+    font-size: 120px;
+    text-decoration-color: red;
+}
+
+.para{
+    color: black;
+    padding-left:10%;
+    padding-right:10%;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+span{
+    color: blue;
+
+}
+
+.background{
+        background-color: black;
+    }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.h1 span{
+    border-radius: 25px;
+    text-align: center;
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+

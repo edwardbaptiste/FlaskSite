@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block title%}Home Page{% endblock %}
+
+<style>
+        body{
+        background-image: url("{{ url_for('static', filename='UnionDunk1copy.jpg') }}");
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+
+    </style>
+
+{% block content%}
+
+
+    <h1 class="main">I<span>'</span>M
+        <br>Edward
+        <br>Baptiste<span>.</span>
+    </h1>
+
+
+    <h1 class="font-weight-lighter para">
+        Lighter weight text (relative to the parent element).
+    Lighter weight text (relative to the parent element).
+    Lighter weight text (relative to the parent element).
+    Lighter weight text (relative to the parent element).
+    Lighter weight text (relative to the parent element).</h1>
+
+    <p style="page-break-after: always;">&nbsp;</p>
+    <p style="page-break-before: always;">&nbsp;</p>
+
+    <h1 class="font-weight-lighter para">
+        Lighter weight text (relative to the parent element).
+    Lighter weight text (relative to the parent element).
+    Lighter weight text (relative to the parent element).
+    Lighter weight text (relative to the parent element).
+    Lighter weight text (relative to the parent element).</h1>
+
+
+
+
+
+{% endblock %}
